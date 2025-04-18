@@ -49,3 +49,94 @@ p {
 /*end of css rest*/
 
 /*body & container*/
+
+body {
+    font-size: 0.938rem;
+    font-family: "Inter", sans-serif;
+}
+
+.container {
+    max-width: 23.438rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+/*End of the body and container*/
+
+/*navigation*/
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 18rem;
+    padding: 1.25rem 0 1.875rem 0;
+}
+
+.img-logo {
+    width: 3.125rem;  
+}
+
+.hamburger-menu {
+    margin-top: 0.625rem;
+}
+
+ nav {
+    display: none;
+}
+
+/*End of the navigation*/
+
+/*header*/
+
+h1 {
+    font-size: 2.742rem;
+    font-weight: 800;
+    color: var(--Very-dark-blue);
+    margin: 0.938rem 0 0.625rem 0;
+}
+
+.header-paragraph {
+   color: var(--Dark-grayish-blue);
+   font-weight: 400;
+   margin: 0 1.688rem 2rem 0;
+   line-height: 1.6;
+}
+
+.btn-one {
+   display: inline-block;
+   background-color: var(--Soft-red);
+   color: var(--Very-dark-blue);
+   letter-spacing: 4px;
+   text-transform: uppercase;
+   text-decoration: none;
+   padding: 0.813rem 1.813rem;
+   font-weight: 700;
+   margin: 0.063rem 0 1.875rem 0;
+   cursor: pointer;
+   transition: transform 250ms ease-in;
+}
+
+.btn-one:hover {
+   background-color: var(--Very-dark-blue);
+   color: var(--Off-white);
+}
+
+/*End of the header*/
+
+/*aside*/
+
+.new-section {
+    background-color: var(--Very-dark-blue);
+    color: aliceblue;
+    margin: 1.5rem 0 3rem 0;
+    padding: 15px 10px;
+}
+
+hr {
+    color: red;
+}
+
