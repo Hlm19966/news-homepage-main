@@ -84,9 +84,26 @@ body {
     margin-top: 0.625rem;
 }
 
- nav {
+nav {
     display: none;
 }
+
+
+ul {
+    list-style-type: none;
+      
+}
+
+li {
+    margin-bottom: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--Very-dark-blue);
+}
+
+
 
 /*End of the navigation*/
 
@@ -132,8 +149,8 @@ h1 {
 .new-section {
     background-color: var(--Very-dark-blue);
     color: aliceblue;
-    margin: 2.5rem 0 5rem 0;
-    padding: 1.25rem 1.625rem 1.563rem 1.375rem;
+    margin: 2.5rem 0 4.5rem 0;
+    padding: 1.25rem 1.625rem 1.620rem 1.375rem;
 }
 
 hr {
@@ -170,6 +187,7 @@ h3:hover {
     color: var(--Grayish-blue);
     opacity: 0.8;
     padding-right: 1.188rem;
+    line-height: 1.7;
 }
 
 /*end of the aside*/
@@ -178,26 +196,26 @@ h3:hover {
 
 .section-one {
     display: flex;
-    margin-bottom: 10px;
-    gap: 8px;
+    margin-bottom: 1.875rem;
+    gap: 1.438rem;
 }
 
 .img-responsive {
-    width: 150px;
-    height: 160px;
+    width: 8.375rem;
+    height: 8.375rem;
 }
 
 .number {
     color: var(--Soft-red);
-    font-size: 30px;
+    font-size: 1.938rem;
     font-weight: 700;
 }
 
 .title {
     color: var(--Very-dark-blue);
-    font-size: 19px;
-    font-weight: 700;
-    margin-bottom: 5px;
+    font-size: 1.188rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
     cursor: pointer;
     transition: 0.3s ease-in-out;
 }
@@ -208,6 +226,9 @@ h3:hover {
 
 .main-paragraph {
     color: var(--Dark-grayish-blue);
-    font-size: 14px;
-    padding-right: 34px;
+    font-size: 0.938rem;
+    padding-right: 1.5rem;
+    line-height: 1.7;
 }
+
+/*End of the main*/
