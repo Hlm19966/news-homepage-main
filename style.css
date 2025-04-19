@@ -157,6 +157,12 @@ h3 {
     font-size: 1.412rem;
     margin-bottom: 0.563rem;
     font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+h3:hover {
+    color: var(--Soft-orange);
 }
 
 .paragraph {
@@ -192,6 +198,12 @@ h3 {
     font-size: 19px;
     font-weight: 700;
     margin-bottom: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.title:hover {
+    color: var(--Soft-red);
 }
 
 .main-paragraph {
