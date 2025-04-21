@@ -82,21 +82,42 @@ body {
 
 .hamburger-menu {
     margin-top: 0.625rem;
+    cursor: pointer;
 }
 
-nav {
-    display: none;
-    
+
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    background-color: var(--Off-white);
+    height: 100%;
+    width: 16rem;
+    transition: right 0.3s ease;
+    z-index: 1;
+}
+
+.mobile-menu.active {
+    right: 0;
+    transition: right 0.3s ease;
+}
+
+.close-icon {
+    display: block;
+    margin-left: auto;
+    padding: 2rem 2rem 6rem 0;
+    cursor: pointer;
+    width: 4.3rem;
 }
 
 
 ul {
     list-style-type: none;
-      
+    font-size: 23px;
 }
 
 li {
-    margin-bottom: 25px;
+    margin-bottom: 28px;
 }
 
 a {
