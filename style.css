@@ -92,9 +92,9 @@ body {
     right: -100%;
     background-color: var(--Off-white);
     height: 100%;
-    width: 16rem;
+    width: 17.5rem;
     transition: right 0.3s ease;
-    z-index: 1;
+    z-index: 999;
 }
 
 .mobile-menu.active {
@@ -125,7 +125,9 @@ a {
     color: var(--Very-dark-blue);
 }
 
-
+a:hover {
+    color: var(--Soft-red);
+}
 
 /*End of the navigation*/
 
@@ -254,3 +256,51 @@ h3:hover {
 }
 
 /*End of the main*/
+
+
+@media only screen and (min-width: 64rem) {
+    
+    .container  {
+        max-width: 75rem;
+    }
+
+    .navigation {
+        gap: 21rem;
+    }
+
+    .img-logo {
+        width: 4rem;
+    }
+
+    .hamburger-menu {
+        display: none;
+    }
+     
+    .mobile-menu {
+        position: static;
+        right: 0;
+        height: auto;
+        width: auto;
+    }
+
+    .close-icon {
+        display: none;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        font-size: 15px;
+        
+    }
+
+    li {
+        margin-bottom: 0;
+    }
+
+    a {
+        color: var(--Dark-grayish-blue);
+    }
+
+}
