@@ -188,7 +188,7 @@ hr {
 
 h2 {
     color: var(--Soft-orange);
-    font-size: 1.938rem;
+    font-size: 2.2rem;
     font-weight: 700;
     margin-bottom: 1.563rem;
 }
@@ -258,18 +258,18 @@ h3:hover {
 /*End of the main*/
 
 
-@media only screen and (min-width: 64rem) {
+@media only screen and (min-width: 80rem) {
     
     .container  {
-        max-width: 75rem;
+        max-width: 80rem;
     }
 
     .navigation {
-        gap: 21rem;
+        gap: 23rem;
     }
 
     .img-logo {
-        width: 4rem;
+        width: 4.5rem;
     }
 
     .hamburger-menu {
@@ -290,7 +290,7 @@ h3:hover {
     ul {
         display: flex;
         flex-direction: row;
-        gap: 40px;
+        gap: 44px;
         font-size: 15px;
         
     }
@@ -301,6 +301,46 @@ h3:hover {
 
     a {
         color: var(--Dark-grayish-blue);
+    }
+
+    .content-wrapper {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 25px;
+        grid-template-areas: 
+        'header aside';
+    }
+
+    .header-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .header-inside {
+       grid-column: 2;
+    }
+
+    .header-paragraph {
+        margin: 2.4rem 2.688rem 2rem 0;
+        font-size: 18px;
+    }
+
+
+    h1 {
+        font-size: 3.3rem;
+        margin: 1rem 0 0.625rem 0;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    .paragraph {
+        font-size: 1.2rem;
+    }
+
+    main {
+        display: flex;
     }
 
 }
