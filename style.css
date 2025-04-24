@@ -265,7 +265,7 @@ h3:hover {
     }
 
     .navigation {
-        gap: 23rem;
+        gap: 21rem;
     }
 
     .img-logo {
@@ -290,8 +290,8 @@ h3:hover {
     ul {
         display: flex;
         flex-direction: row;
-        gap: 44px;
-        font-size: 15px;
+        gap: 2.938rem;
+        font-size: 1.125rem;
         
     }
 
@@ -306,9 +306,8 @@ h3:hover {
     .content-wrapper {
         display: grid;
         grid-template-columns: 2fr 1fr;
-        gap: 25px;
-        grid-template-areas: 
-        'header aside';
+        gap: 1.563rem;
+        margin: 1rem 0 3.55rem 0;
     }
 
     .header-grid {
@@ -322,13 +321,23 @@ h3:hover {
 
     .header-paragraph {
         margin: 2.4rem 2.688rem 2rem 0;
-        font-size: 18px;
+        font-size: 1.125rem;
     }
 
 
     h1 {
         font-size: 3.3rem;
         margin: 1rem 0 0.625rem 0;
+    }
+
+    .btn-one {
+        padding: 0.813rem 2.513rem;
+        font-size: 1rem;
+    }
+
+
+    .new-section {
+        margin: 0;
     }
 
     h2 {
@@ -341,6 +350,11 @@ h3:hover {
 
     main {
         display: flex;
+    }
+
+    .main-paragraph {
+        font-size: 1rem;
+        margin-right: 3rem;
     }
 
 }
