@@ -93,6 +93,7 @@ body {
     background-color: var(--Off-white);
     height: 100%;
     width: 17.5rem;
+    box-shadow: -60px 0 100px rgba(0, 0, 0, 0.5);
     transition: right 0.3s ease;
     z-index: 999;
 }
@@ -281,6 +282,7 @@ h3:hover {
         right: 0;
         height: auto;
         width: auto;
+        box-shadow: none;
     }
 
     .close-icon {

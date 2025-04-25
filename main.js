@@ -3,6 +3,7 @@ const mobilemenu = document.getElementById("mobilemenu");
 const closeIcon = document.getElementById("closeIcon");
 
 
+
 menuIcon.addEventListener("click", ()=> {
  mobilemenu.classList.add('active');
 });
